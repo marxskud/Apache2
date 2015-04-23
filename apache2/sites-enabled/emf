@@ -1,0 +1,14 @@
+<VirtualHost *:80>
+ServerName test2-emf.aragon-erh.com
+ServerAlias ranking*emf.aragon-erh.com
+DocumentRoot /var/www/emf
+</VirtualHost>
+
+#<IfModule mod_fastcgi.c>
+#FastCgiExternalServer /var/www/php5.external -host 127.0.0.1:9000
+#FastCgiConfig -autoUpdate -singleThreshold 100 -killInterval 300 -maxProcesses 10 -maxClassProcesses 1
+#AddHandler php5-fcgi .php
+#Action php5-fcgi /usr/lib/cgi-bin/php5.external
+#Alias /usr/lib/cgi-bin/	/var/www/
+#</IfModule>
+

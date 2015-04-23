@@ -1,0 +1,5 @@
+<VirtualHost *:80>
+ServerName test2-emf.aragon-erh.com
+ServerAlias ranking*emf.aragon-erh.com
+DocumentRoot /var/www/emf
+</VirtualHost>
